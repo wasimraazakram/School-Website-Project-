@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+
+
+  <a href="index.html"> <img class="center" src="st-xaviers-english-medium-school-s11678.jpg" height="200px" width="300px" alt="image" > </a>
+<h1 class="style"> </b>St.Xavier's English Medium School, Halim Chowk, Kishanganj, Bihar-855107.</b></h1> 
+<h2 class="style2"> <strong> &nbsp;&nbsp;&nbsp;&nbsp; Affiliated to CBSE, New Delhi.</strong></h2>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"  integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href='index.html'>Home</a>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link" href="details.html">Details</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href='#' id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About Us
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="alumni.html">Alumni</a></li>
+            <li><a class="dropdown-item" href="features.html">Features</a></li>
+            <li><a class="dropdown-item" href="curriculum.html">Curriculum</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+         
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+<br>
+
+<body>
+
+<h2 class="w3-center"></h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="school1.jpg"style ="width:100%">
+  <img class="mySlides" src="school.jpg" style= "width:100%">
+  <img class="mySlides" src="school2.jpg" style="width:100%">
+  <img class="mySlides" src="school3.jpg" style="width:100%">
+  <img class="mySlides" src="https://schools.thelearningpoint.net/pics-cbse/schoolPic50396.JPG" style="width:100%">
+  <img class="mySlides" src="https://cache.careers360.mobi/media/schools/social-media/media-gallery/1842/2019/8/24/St%20Xaviers%20English%20Medium%20School-Award.jpg" style="width:100%">
+    <img class="mySlides" src="https://5.imimg.com/data5/BS/GY/GLADMIN-59670288/7th-standard-education-service-500x500.png" style="width:100%">
+     <img class="mySlides" src="https://5.imimg.com/data5/LA/RF/GLADMIN-59670288/6th-standard-education-service-500x500.png" style="width:100%">
+      <img class="mySlides" src="https://cache.careers360.mobi/media/schools/social-media/media-gallery/1842/2019/8/24/St%20Xaviers%20English%20Medium%20School-Students.jpg" style="width:100%">
+       <img class="mySlides" src="https://i.ytimg.com/vi/tQcJnKjiomw/maxresdefault.jpg" style="width:100%">
+        <img class="mySlides" src="https://i.ytimg.com/vi/lKdSdEcOxtM/maxresdefault.jpg" style="width:100%">
+
+
+
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); 
+}
+</script>
+
+
+</body>
+</html>
